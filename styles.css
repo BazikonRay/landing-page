@@ -2,6 +2,8 @@ body {
     font-family: Roboto;
 }
 
+/* Headre section */
+
 .header {
     background-color: #1F2937;
     padding: 16px 32px;
@@ -35,3 +37,6 @@ ul {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+
+/* Hero section */
