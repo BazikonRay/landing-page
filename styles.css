@@ -137,3 +137,28 @@ h2 {
     color: rgb(54, 54, 54);
     text-align: center;
 }
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote .content {
+    max-width: 800px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    text-align: start;
+}
+
+.quote p {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    text-align: end;
+}
