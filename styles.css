@@ -2,6 +2,11 @@ body {
     font-family: Roboto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Headre section */
 
 .header {
@@ -78,31 +83,57 @@ p {
 }
 
 button {
-    margin: 0;
-    padding: 10px 24px;
+    margin: 8px 0 0 0;
+    padding: 8px 24px;
     border: 0;
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 1cap;
     width: fit-content;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
-.hero a {
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-/* Information section  */
+/* Information section */
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
+    padding: 46px 0;
 }
 
 .info {
-    max-width: 1000px;
+    padding: 0 0 100px 0;
+}
+
+.info .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.card, .card img {
+    max-width: 200px;
+}
+
+.cards img {
+    border-radius: 5%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: solid 4px #3882F6;
+}
+
+.card p {
+    color: rgb(54, 54, 54);
+    text-align: center;
 }
