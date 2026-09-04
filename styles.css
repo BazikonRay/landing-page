@@ -161,3 +161,25 @@ h2 {
     font-weight: bold;
     text-align: end;
 }
+
+/* CTA section */
+
+.cta {
+    padding: 100px;
+}
+
+.cta .content {
+    display: flex;
+    justify-content: space-around;
+    background-color:#3882F6;
+    color: #F9FAF8; 
+    padding: 50px 0;
+    border-radius: 0.7cap;
+    font-size: 18px;
+    align-items: center;
+}
+
+.cta button {
+    border: solid 2px #F9FAF8;
+    margin: 0;
+}
